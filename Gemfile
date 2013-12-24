@@ -37,7 +37,7 @@ gem 'devise', '3.0.3'
 gem 'rabl'
 gem "cancan"
 gem 'rolify'
-gem 'bootstrap-sass', git: 'https://github.com/thomas-mcdonald/bootstrap-sass.git', branch: '3'
+gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'omniauth-twitter'
 
 # Use ActiveModel has_secure_password
