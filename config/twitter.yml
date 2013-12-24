@@ -1,0 +1,11 @@
+development:
+  consumer_key: KhbcesceFRLSP51yyGGCw
+  consumer_secret: m7zcI5SGIStrtpp10hy0ykoSAwaovVeP3U9viCyg
+
+test:
+  consumer_key: KhbcesceFRLSP51yyGGCw
+  consumer_secret: m7zcI5SGIStrtpp10hy0ykoSAwaovVeP3U9viCyg
+
+production:
+  consumer_key: KhbcesceFRLSP51yyGGCw
+  consumer_secret: m7zcI5SGIStrtpp10hy0ykoSAwaovVeP3U9viCyg
