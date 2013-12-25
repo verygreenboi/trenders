@@ -1,4 +1,28 @@
 <% content_for :title do %>Trenders<% end %>
 <% content_for :description do %>Start earning on Tweets<% end %>
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<section class="row">
+	<div class="col-xs-12">
+		<p class="lead text-center">Monitize your Social Media Life</p>
+		<p class="text-center">
+			<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+			<%= link_to "About Trenders NG", home_about_path, class: "btn btn-default btn-lg" %>
+		</p>
+	</div>
+</section>
+
+<section class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="page-header">
+					<h1>Why You'll Love It</h1>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<p class="lead">We'd tweet, you don't have to.</p>
+				<p>If you are looking to monitize your twitter account, we have the best solutions for you. Built with cutting edge technology, Trenders NG will serve highly relevant tweets to your timeline. <strong>You earn as we tweet for you.</strong></p>
+				<p>This is accomplished using our advance algorithm to determine your tweeting preference from what you have already tweeted.</p>
+			</div>
+		</div>
+	</div>
+</section>
